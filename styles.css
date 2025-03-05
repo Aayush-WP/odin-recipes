@@ -2,13 +2,26 @@
 
 *{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
-.center{
+.text-center{
     text-align:center;
 }
 
-img.center{
+.main-container{
+    box-sizing:border-box;
+    height: 262.21px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    background-color: wheat;
+    border-color: aquamarine;
+}
+
+
+
+.block-center{
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -44,9 +57,6 @@ h2{
   background-color: darkturquoise;
 }
 
-.summ{
-
-}
 
 .ingr{
     color:gold;
@@ -62,4 +72,17 @@ ol{
 
 ul{
     color:blueviolet;
+}
+
+.button{
+    width: auto;
+    display: inline-block;
+    color:yellow;
+    background-color: lightcoral;
+    /* width: 50px; */
+    /* height: 40px; */
+    height:auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: 700;
 }
