@@ -11,12 +11,15 @@
 
 .main-container{
     box-sizing:border-box;
-    height: 262.21px;
-    width: 200px;
+    /* height: 262.21px; */
+    height: 350px;
+    width: 260px;
+    /* width:auto; */
     border: 2px;
     border-style: solid;
+    margin-top: 150px;
     background-color: wheat;
-    border-color: aquamarine;
+    border-color: burlywood;
 }
 
 
@@ -28,19 +31,20 @@
 }
 
 h1{
+    font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:coral;
     background-color: cornflowerblue;
 }
 
 .pizza{
-    color:yellow;
-    background-color:red;
+    color:rgb(255, 136, 0);
+    background-color:wheat;
 }
 
 .ice-cream{
-    color:pink;
-    background-color:purple;
+    color:purple;
+    background-color:pink;
 }
 
 .coffee{
@@ -59,7 +63,7 @@ h2{
 
 
 .ingr{
-    color:gold;
+    color:orange;
 }
 
 .steps{
@@ -77,7 +81,7 @@ ul{
 .button{
     width: auto;
     display: inline-block;
-    color:yellow;
+    color:rgb(255, 208, 108);
     background-color: lightcoral;
     /* width: 50px; */
     /* height: 40px; */
@@ -85,4 +89,6 @@ ul{
     padding: 5px;
     margin-bottom: 10px;
     font-weight: 700;
+    text-decoration: none;
 }
+
